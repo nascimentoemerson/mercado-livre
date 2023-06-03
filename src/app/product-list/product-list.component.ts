@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-list.component.sass']
 })
 export class ProductListComponent {
-  products = ["Embreagem", "Kit Embreagem", "Coxim Amortecedor" ]
 }

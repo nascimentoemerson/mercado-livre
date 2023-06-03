@@ -5,5 +5,6 @@ import { Component, Input } from '@angular/core';
   templateUrl: './product-card.component.html',
   styleUrls: ['./product-card.component.sass']
 })
+
 export class ProductCardComponent {
 }
