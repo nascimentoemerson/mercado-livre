@@ -13,47 +13,50 @@
     margin-right: 20px
 
     img
-      max-width: 200px
-      max-height: 200px
+      max-width: 12.5rem
+      max-height: 12.5rem
+
+  
 
   &__container
+    margin: 10px
     display: flex
     flex-direction: column
-    grid-gap: 30px
 
     &__title
-      font-size: 25px
-      font-weight: bold
-      margin-bottom: 10px
+    font-size: 18px
+    margin-bottom: 10px
+    width: 100%
 
-    &__price
-      color: #ff9500
-      font-size: 24px
-      font-weight: bold
-      margin-bottom: 10px
+  &__details
+    display: flex
+    font-size: 10px
+    align-items: flex-start
+    justify-content: space-between
 
-    &__shipping__types
-      display: flex
-      font-size: 18px
-      flex-direction: row /* ADICIONADO */
+
+  
+
+  
+  &__price 
+    color: #ff9500
+    font-size: 30px
+    font-weight: bold
+    margin-top: 15px
     
-      &__type
-        align-items: center
-        display: flex
-        font-weight: bold
-        margin-right: 10px
-        text-transform: uppercase
+  &__shipping__types
+    display: flex
+    flex-direction: row 
+    align-items: center
+    font-size: 20px
+    
 
-        &--free-shipping
-          color: #00a650
+    &--free-shipping
+    color: #00a650
 
-        &--fulfillment
-          color: #3483fa
 
-    &__details
-      display: flex
-      flex-wrap: wrap
-      font-size: 16px
 
-      div
-        margin-right: 20px
+
+
+
+
